@@ -1,6 +1,7 @@
 header {
   background: #999;
   color: white;
+  padding: 15px 15px 0 15px;
 }
 
 body {
@@ -17,6 +18,7 @@ header h1 {
 nav ul {
   margin: 0;
   display: inline;
+  padding: 0 0 0 15px;
 }
 
 nav ul li {
