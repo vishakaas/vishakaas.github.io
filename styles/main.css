@@ -1,5 +1,6 @@
 header {
   background: #999;
+  color: white;
 }
 
 body {
@@ -8,8 +9,13 @@ body {
   font-family: arial;
 }
 
-h1 {
+header h1 {
   color: #333;
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
 }
 
 nav ul li {
