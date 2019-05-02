@@ -1,12 +1,8 @@
 body {
-  color: white;
+  color: black;
   padding: 0;
   margin: 0;
   font-family: Helvetica;
-}
-
-p {
-color: black;
 }
 
 header {
