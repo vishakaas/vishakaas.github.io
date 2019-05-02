@@ -1,13 +1,11 @@
 body {
+  color: white;
   padding: 0;
-  margin: 10px;
+  margin: 0;
   font-family: Helvetica;
 }
-h1 {
-  color: white;
-}
 
-h2 {
+section {
   color: black;
 }
 
