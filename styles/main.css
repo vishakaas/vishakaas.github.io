@@ -11,17 +11,22 @@ body {
   background: #999;
 }
 
-nav ul {
+ul {
   padding: 0;
   display: inline;
   list-style-type: none;
 }
 
-nav li {
+li {
   display: inline-block;
   margin-right: 20px;
 }
 
-nav ul li a {
+ul li a {
   colour: white;
+}
+
+footer {
+  background: black;
+  padding: 10px 20px;
 }
