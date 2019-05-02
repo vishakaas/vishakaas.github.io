@@ -1,16 +1,19 @@
-header {
-  background: #000;
-  color: white;
+body {
+  background: rgb(58, 58, 58);
+  colour: white;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
 }
 
-body {
+header {
+  background: black;
   padding: 20px;
-  font-family: arial;
 }
 
 ul {
   padding: 0;
-  display: inline-block;
+  margin: 0;
   list-style-type: none;
 }
 
