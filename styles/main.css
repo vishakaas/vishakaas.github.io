@@ -6,11 +6,10 @@ header {
 
 body {
   margin: 0;
-  background: #888;
   font-family: arial;
 }
 
-header h1 {
+header {
   margin: 0;
   display: inline;
 }
