@@ -1,7 +1,9 @@
 header {
-  background: #999;
+  background: black;
   color: white;
   padding: 15px 15px 0 15px;
+  display: inline;
+  margin: 0;
 }
 
 body {
@@ -10,23 +12,16 @@ body {
   background: #999;
 }
 
-header {
-  margin: 0;
-  display: inline;
-}
-
 nav ul {
   margin: 0;
+  padding: 0;
   display: inline;
-  padding: 0 0 0 15px;
+  list-style-type: none;
 }
 
-nav ul li {
+nav li {
   display: inline-block;
-  list-style-type: none;
-  background: black;
-  colour: white;
-  padding: 5px 15px;
+  margin-right: 20px;
 }
 
 nav ul li a {
