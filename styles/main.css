@@ -1,1 +1,24 @@
+header {
+  background: #000;
+  color: white;
+}
 
+body {
+  padding: 20px;
+  font-family: arial;
+}
+
+ul {
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a {
+  colour: white;
+}
