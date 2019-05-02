@@ -1,8 +1,20 @@
+header {
+  background: #999;
+}
+
 body {
+  margin: 0;
   background: #888;
   font-family: arial;
 }
 
 h1 {
   color: #333;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  background: black;
+  colour: white;
 }
