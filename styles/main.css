@@ -5,6 +5,10 @@ body {
   font-family: Helvetica;
 }
 
+p {
+color: black;
+}
+
 header {
   background: black;
   padding: 20px;
