@@ -5,7 +5,7 @@ body {
   font-family: Helvetica;
 }
 
-p h2 {
+div {
   color: black;
   padding: 20px;
 }
@@ -42,6 +42,7 @@ ul li a {
 
 .features {
   background: white;
+  colour: black;
   padding: 20px;
   display: flex;
   flex-direction: row;
