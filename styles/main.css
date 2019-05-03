@@ -39,3 +39,10 @@ li {
 ul li a {
   colour: white;
 }
+
+.features {
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
