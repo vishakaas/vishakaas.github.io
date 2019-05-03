@@ -11,6 +11,11 @@ div {
   text-align: center;
 }
 
+section {
+  color: black;
+  padding: 20px;
+}
+
 header {
   background: black;
   height: 300px;
@@ -46,13 +51,13 @@ ul li a {
   padding: 20px;
 }
 
+.features figure {
+  margin: auto;
+  width: 200px;
+{
+
 .features figure img {
   border: 1px solid white;
   box-shadow: gray 0 0 10px;
   width: 200 px;
-}
-
-section {
-  color: black;
-  padding: 20px;
 }
