@@ -18,6 +18,7 @@ header {
   height: 400px;
   padding: 20px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 header a {
