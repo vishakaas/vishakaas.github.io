@@ -47,9 +47,9 @@ ul li a {
 }
 
 .features figure img {
-  border radius: 50%;
+  border: 1px solid white;
+  box-shadow: gray 0 0 10px;
   width: 200 px;
-  vertical-align: middle;
 }
 
 section {
