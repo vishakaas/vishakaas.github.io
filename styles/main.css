@@ -11,11 +11,6 @@ div {
   text-align: center;
 }
 
-section {
-  color: black;
-  padding: 20px;
-}
-
 header {
   background: black;
   height: 300px;
@@ -61,4 +56,9 @@ ul li a {
   border: 1px solid white;
   box-shadow: gray 0 0 10px;
   width: 200 px;
+}
+
+section {
+  color: black;
+  padding: 20px;
 }
