@@ -13,12 +13,20 @@ section {
 header {
   background: black;
   background-image: url("image/chemicals header.jpg");
-  text-transform: uppercase;
+  background-size: 100%;
+  background-position: center;
   height: 400px;
   padding: 20px;
   text-align: center;
 }
 
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+  
 ul {
   padding: 0;
   margin: 0;
