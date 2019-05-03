@@ -12,9 +12,6 @@ section {
 
 header {
   background: black;
-  background-image: url("chemicals.jpg");
-  background-size: 100%;
-  background-position: center;
   height: 400px;
   padding: 20px;
   text-align: center;
