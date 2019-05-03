@@ -43,10 +43,12 @@ ul li a {
 
 .features {
   background: white;
-  color: black;
   padding: 20px;
-  display: flex;
-  flex-direction: row;
+}
+
+.features figure img {
+  border radius: 50%;
+  width: 200 px;
 }
 
 section {
