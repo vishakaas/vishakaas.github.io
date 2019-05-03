@@ -38,12 +38,12 @@ li {
 }
 
 ul li a {
-  colour: white;
+  color: white;
 }
 
-.features {
+features {
   background: white;
-  colour: black;
+  color: black;
   padding: 20px;
   display: flex;
   flex-direction: row;
