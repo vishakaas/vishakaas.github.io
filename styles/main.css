@@ -52,7 +52,8 @@ ul li a {
 }
 
 .features figure {
-  margin: auto;
+  object-fit: cover;
+  height: 250px;
   width: 200px;
 {
 
