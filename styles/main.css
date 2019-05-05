@@ -10,13 +10,14 @@ div {
   padding: 20px;
   text-align: center;
 }
-
-section {
+article {
   color: black;
   padding: 20px;
-  text-indent: 50px;
+  margin-left: 31%;
+  position: staticS;
+  bottom: 700px;
+  font-size: 25px;
 }
-
 header {
   background: black;
   height: 300px;
@@ -44,22 +45,20 @@ li {
 }
 
 ul li a {
-  color: white;
-}
-
-.features {
-  background: white;
-  padding: 20px;
+  color: rgb(187, 179, 179);
 }
 
 .features figure {
-  object-fit: cover;
-  height: 250px;
-  width: 200px;
-{
+  background: white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
 
 .features figure img {
-  border: 1px solid white;
+  width: 400px;
+  height: 520px;
   box-shadow: gray 0 0 10px;
-  width: 200 px;
+  border: 1px solid white;
 }
