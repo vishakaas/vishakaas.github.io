@@ -159,7 +159,7 @@ article#main-col{
 }
 
 /* Contact */
-ul#contact li{
+ul#blogpost li{
     list-style: none;
     padding: 20px;
     border: #cccccc solid 1px;
