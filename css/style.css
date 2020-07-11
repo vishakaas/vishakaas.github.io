@@ -4,7 +4,8 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background: linear-gradient(45deg, #CCFFFF, #FFCCCC);
+    background-colour: #B0C4DE;
+ /*--background: linear-gradient(45deg, #CCFFFF, #FFCCCC);*/
 }
 /* Global */
 .container{
