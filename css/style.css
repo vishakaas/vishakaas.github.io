@@ -4,10 +4,9 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background: url("https://cdn.inspirationhut.net/wp-content/uploads/2013/05/11.png");
-        
+    background: linear-gradient(45deg, #CCFFFF, #FFCCCC);      
  /* background-color: #B0C4DE; */
- /* background: linear-gradient(45deg, #CCFFFF, #FFCCCC); */
+ /* background: url("https://cdn.inspirationhut.net/wp-content/uploads/2013/05/11.png"); */
 }
 /* Global */
 .container{
@@ -182,10 +181,21 @@ footer{
 }
 
 #newsletter button, .quote button{
+    border-radius: 5px;
     display: block;
-    width: 100%
+    width: 100%;
+    padding: 5px 10px 8px 10px;
 }
 
+button:hover {
+    animation-name: background-color;
+    animation-fill-mode: forwards;
+    
+@keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+    
 #newsletter form input[type="email"], .quote input, .quote textarea{
     width: 100%;
     margin-bottom: 5px; 
