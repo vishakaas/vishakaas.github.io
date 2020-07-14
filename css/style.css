@@ -4,8 +4,8 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background: linear-gradient(45deg, #CCFFFF, #FFCCCC);      
- /* background-color: #B0C4DE; */
+    background-color: #B0C4DE;
+ /* background: linear-gradient(45deg, #CCFFFF, #FFCCCC); */
  /* background: url("https://cdn.inspirationhut.net/wp-content/uploads/2013/05/11.png"); */
 }
 
