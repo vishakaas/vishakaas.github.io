@@ -8,6 +8,12 @@ body{
  /* background-color: #B0C4DE; */
  /* background: url("https://cdn.inspirationhut.net/wp-content/uploads/2013/05/11.png"); */
 }
+
+a:hover {
+    background-color: #CCCCCC;
+    font-weight: bold;
+}
+
 /* Global */
 .container{
     width: 80%;
@@ -79,7 +85,7 @@ header .highlight, header .current a{
 }
 
 header a:hover{
-    color: #cccccc;
+    color: #CCCCCC;
     font-weight: bold;
 }
 
