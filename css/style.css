@@ -139,17 +139,11 @@ article#main-col{
     width: 65%;
 }
 
-/* Contact */
-ul#blogpost li{
-    list-style: none;
-    padding: 20px;
-    border: #cccccc solid 1px;
-    margin-bottom: 5px;
-    background: #e6e6e6;
-}
-
 footer{
     padding: 20px;
+    position: absolute;
+    bottom: 0;
+    height: 20px;
     margin-top: 20px;
     color: #ffffff;
     background-color: #000080;
