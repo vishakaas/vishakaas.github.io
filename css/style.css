@@ -9,8 +9,6 @@ body{
  /* background: url("https://cdn.inspirationhut.net/wp-content/uploads/2013/05/11.png"); */
 }
 
-}
-
 /* Global */
 .container{
     width: 80%;
@@ -159,21 +157,6 @@ footer{
 }
 
 /* Media Queries */
-
-@media(max-width: 760px){
-    header #branding,
-    header nav,
-    header nav li,
-    #newsletter h1,
-    #newsletter form,
-    #boxes .box,
-    article#main-col,
-    aside#sidebar{
-        float: none;
-        text-align: center;
-        width: 100%;
-    }
-
     header{
         padding-bottom: 20px;
     }
@@ -181,13 +164,6 @@ footer{
 
 #showcase h1{
     margin-top: 40px;
-}
-
-#newsletter button, .quote button{
-    border-radius: 5px;
-    display: block;
-    width: 100%;
-    padding: 5px 10px 8px 10px;
 }
 
 button:hover {
@@ -198,11 +174,6 @@ button:hover {
     100% {
       background-color: #4791d0;
     }
-    
-#newsletter form input[type="email"], .quote input, .quote textarea{
-    width: 100%;
-    margin-bottom: 5px; 
-}
 
 .img-me{
     width: 360px;
