@@ -7,7 +7,7 @@
     font-weight: lighter;
     font-variant: small-caps;
     line-height: 50px;
-    /*overflow: hidden; */
+    *overflow: hidden;
 }
 
 #main-header a {
@@ -19,12 +19,12 @@
     color: rgb(69, 69, 126);
 }
 
-/* Media Queries */
+/* Media Queries
 @media screen and (max-width: 800px) {
     .left, .main, .right {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      width: 100%; The width is 100%, when the viewport is 800px or smaller
     }
-  }
+  }*/
 
 /* Nav */
 #menu {
