@@ -7,6 +7,7 @@
     font-weight: lighter;
     font-variant: small-caps;
     line-height: 50px;
+    /*overflow: hidden; */
 }
 
 #main-header a {
@@ -17,6 +18,13 @@
 #main-header a:hover {
     color: rgb(69, 69, 126);
 }
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
 
 /* Nav */
 #menu {
