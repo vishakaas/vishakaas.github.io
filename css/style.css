@@ -7,7 +7,7 @@
     font-weight: lighter;
     font-variant: small-caps;
     line-height: 50px;
-    *overflow: hidden;
+    overflow: hidden;
 }
 
 #main-header a {
