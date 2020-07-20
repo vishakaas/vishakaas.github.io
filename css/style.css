@@ -3,7 +3,6 @@
     background-color: transparent;
     text-align: center;
     color: black;
-    width: 100%;
     font-size: 24px;
     font-weight: lighter;
     font-variant: small-caps;
@@ -125,4 +124,11 @@ height: 240px;
 #item {
     margin-bottom: 400px;
 }
+
+/* Media Queries */
+@media only screen and (max-device-width: 480px) {
+    #showcase {
+        width: 100%;
+    }
+
 }
