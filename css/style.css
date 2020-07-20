@@ -126,9 +126,8 @@ height: 240px;
 }
 
 /* Media Queries */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 800px) {
     #showcase {
         width: 100%;
     }
-
 }
