@@ -88,7 +88,7 @@ footer {
     line-height: 50px;
 }
 
-/*Picture of Me */
+/* Profile Picture */
 #box {
     background-image: url('../images/me.jpg'); 
     background-repeat: no-repeat;
@@ -98,6 +98,8 @@ footer {
     position: absolute;
     top: 270px;
     right: 100px;
+    border: 5px solid #f1b1b167; 
+    border-radius: 5px;
     }
     
 /* About Me */
