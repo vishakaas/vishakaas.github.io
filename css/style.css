@@ -67,7 +67,7 @@ body {
 
 /*Left Side of Home Page */
 #showcase {
-    background-image: url('../images/color.png');
+    background-image: url('images/color.png');
     background-position: center;
     background-repeat: no-repeat;
     width: 500px;
