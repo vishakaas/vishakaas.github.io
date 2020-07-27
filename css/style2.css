@@ -121,6 +121,10 @@ footer {
 }
 
 /* Article */
+#text {
+    margin-bottom: 50px;            /*(Brings footer down and doesn't show repeat of background image)*/
+}
+
 article col-2{
     float: left;
 }
