@@ -67,6 +67,26 @@ body {
     margin: auto;
 }
 
+/*Left Side of Home Page */
+#showcase {
+    background-image: url('/images/color.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 484px;
+}
+
+#showcase .container {
+    margin: none;
+}
+
+#showcase h1 { /*fix*/
+    padding-top: 170px;
+    padding-left: 90px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -76,7 +96,7 @@ footer {
 
 /* About Me */
 /*#description {
-    margin-bottom: 300px;           /*(Brings footer down and doesn't show repeat of background image)*/
+    margin-bottom: 300px;           (Brings footer down and doesn't show repeat of background image)
 }*/
 
 #description p {
@@ -95,7 +115,7 @@ footer {
 
 /* Projects */
 *#item {
-    margin-bottom: 400px;           (Brings footer down and doesn't show repeat of background image)
+    margin-bottom: 400px;           /*(Brings footer down and doesn't show repeat of background image)*/
 }
 
 #item a {
@@ -107,6 +127,19 @@ footer {
 
 #item a:hover {
     color: rgba(160, 137, 202, 0.911);
+}
+
+/* Article */
+article col-2{
+    float: left;
+}
+
+/* Sidebar */
+#sidebar {
+    background-image: url(../images/pillbottle.jpg);
+    float: right;
+    width: 30%;
+    margin: 10px;
 }
 
 /*Media Queries*/
