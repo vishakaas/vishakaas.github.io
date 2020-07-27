@@ -114,9 +114,9 @@ footer {
 }
 
 /* Projects */
-/*#item {
+*#item {
     margin-bottom: 400px;           (Brings footer down and doesn't show repeat of background image)
-}*/
+}
 
 #item a {
     font-size: 18px;
@@ -127,6 +127,19 @@ footer {
 
 #item a:hover {
     color: rgba(160, 137, 202, 0.911);
+}
+
+/* Article */
+article col-2{
+    float: left;
+}
+
+/* Sidebar */
+#sidebar {
+    background-image: url(../images/pillbottle.jpg);
+    float: right;
+    width: 30%;
+    margin: 10px;
 }
 
 /*Media Queries*/
