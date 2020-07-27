@@ -82,10 +82,6 @@ footer {
     text-align: center;
     font-size: 15px;
     font-family: 'Century Gothic', sans-serif;
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
 }
 
 /* About Me */
@@ -172,9 +168,5 @@ article col-2{
     footer {
         text-align: center;
         font-size: 15px;  
-        clear: both;
-        position: relative;
-        height: 200px;
-        margin-top: -200px;
     }
 }
