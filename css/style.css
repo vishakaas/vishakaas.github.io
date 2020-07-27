@@ -1,24 +1,13 @@
-/* Header */
-#main-header {
-    background-color: transparent;
-    text-align: center;
-    color: black;
-    font-size: 24px;
-    font-weight: lighter;
-    font-variant: small-caps;
-    line-height: 50px;
+body {
+    font-family: 'Century Gothic', sans-serif;
+    color: darkslategray;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(60deg, #CCFFFF, #FFCCCC);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#main-header a {
-    color: black;
-    text-decoration: none;
-}
-
-#main-header a:hover {
-    color: rgb(69, 69, 126);
-}
-
-/* Nav */
 #menu {
     background-color: transparent;
 }
@@ -34,119 +23,97 @@
     display: inline;
 }
 
-#menu a {
+#menu li a {
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
     color: darkslategray;
     text-decoration: none;
+    transition: all ease-in-out 250ms;
 }
 
-#menu a:hover {
+#menu li a:hover {
     color: burlywood;
 }
 
-body {
-    background: linear-gradient(60deg, #CCFFFF, #FFCCCC);
-   /* background-image: url(../images/blue-snow.png);*/
-    background-repeat: none;
-    line-height: 1.6em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    color: #555;
-    font-weight: normal;
-    margin: 0;
-    height: 15px;
+/* Header */
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: 10;
+    color: darkslategray;
+    margin-top: 40px;
 }
 
-/* Div */
-.container {
-    width: 80%;
+.box {
+    width: 360px;
+    background: transparent;
+    opacity: 0.9;
+    padding: 40px;
+    text-align: center;
     margin: auto;
+    margin-top: 30px;
+    color: darkslategray;
+    font-family: 'Century Gothic', sans-serif;
 }
 
-/*Left Side of Home Page */
-#showcase {
-    background-image: url('/images/color.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 500px;
-    height: 484px;
+.box img {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 30px;
 }
 
-#showcase .container {
-    margin: none;
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-align: center;
 }
 
-#showcase h1 { /*fix*/
-    padding-top: 170px;
-    padding-left: 90px;
-    font-size: 30px;
-    line-height: 50px;
+.box h5 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 40;
+}
+
+.box p {
+    text-align: center;
+
+}
+
+.box h6 {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: -25px;
+    font-weight: 100;
+    padding-left: 12px;
+}
+
+.box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    list-style: none;
+    display: inline-block;
+}
+
+.box li a {
+    color: darkslategray;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+    color: #b9b9b9;
 }
 
 /* Footer */
 footer {
     text-align: center;
     font-size: 15px;
-    padding: 20px;
-    height: 15px;
-}
-
-/* About Me */
-/*#description {
-    margin-bottom: 300px;           (Brings footer down and doesn't show repeat of background image)
-}*/
-
-#description p {
-    text-decoration: none;
-    color: darkslategray;
-}
-
-#description a {
-    text-decoration: none;
-    color: darkslategray;
-}
-
-#description a:hover {
-    color: burlywood;
-}
-
-/* Projects */
-/*#item {
-    margin-bottom: 400px;           (Brings footer down and doesn't show repeat of background image)
-}*/
-
-#item a {
-    font-size: 18px;
-    color: darkslategray;
-    text-decoration: none;
-}
-
-#item a:hover {
-    color: rgba(160, 137, 202, 0.911);
-}
-
-/*Media Queries*/
-@media  (max-width: 768px) {
-    #main-header {
-        float: none;
-        text-align: center;
-        width: 100%;
-    }
-
-    body {
-        height: 15px;
-    }
-
-    #showcase h1 {
-        margin-top: 80px;
-        font-size: 30px;
-        line-height: 50px;
-    }
-
-    footer {
-        text-align: center;
-        font-size: 15px;
-    }
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
