@@ -15,6 +15,13 @@ body {
     background-size: cover;
 }
 
+main {
+    min-height: calc(100vh - 152.16px - 25px);
+    margin: 0 auto;
+    padding: 30px 20px;
+    width: 90vw;
+}
+
 #menu {
     background-color: transparent;
 }
@@ -121,8 +128,9 @@ h2 {
 footer {
     text-align: center;
     font-size: 15px;
-    margin-top: 30px;
-    margin-bottom: 35px;
+    bottom:0;
+    margin-top:-40px;
+    width: 100%;
 }
 
 /*Media Queries*/
