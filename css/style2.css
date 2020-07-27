@@ -129,19 +129,6 @@ footer {
     color: rgba(160, 137, 202, 0.911);
 }
 
-/* Article */
-article col-2{
-    float: left;
-}
-
-/* Sidebar */
-#sidebar {
-    background-image: url(../images/pillbottle.jpg);
-    float: right;
-    width: 30%;
-    margin: 10px;
-}
-
 /*Media Queries*/
 @media  (max-width: 768px) {
     #main-header {
