@@ -7,10 +7,6 @@ html,body {
     overflow-x: hidden;
 }
 
-.wrapper {
-    overflow-x: hidden; 
-}
-
 /* Header */
 #main-header {
     background-color: transparent;
@@ -130,6 +126,7 @@ footer {
     font-size: 14px;
     font-family: 'Century Gothic', sans-serif;
     background-color: thistle;
+    bottom: 0;
     margin:0;
     width: 100%;
     position: absolute;
