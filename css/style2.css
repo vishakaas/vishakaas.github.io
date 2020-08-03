@@ -84,19 +84,53 @@ section {
 
 /* Article */
 article {
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 15px;
 }
+
+.container {
+    padding: 15px 0;
+    text-align: center;
+    letter-spacing: 30px;;
+}
+
+.logo-img {
+    width: 330px;
+    border: 4px solid rgb(73, 60, 73);
+}
+
+.logo-img:hover {
+    box-shadow: 0 0 20px 1px white;
+  }
+
+.classroom-img {
+    width: 269px;
+    border: 4px solid rgb(73, 60, 73);
+}
+.classroom-img:hover {
+    box-shadow: 0 0 20px 1px white;
+  }
+
+.bottle1-img {
+    width: 250px;
+    border: 4px solid rgb(73, 60, 73);
+}
+
+.bottle2-img {
+    width: 216px;
+    border: 4px solid rgb(73, 60, 73);
+}
+
+.bottle1-img:hover, .bottle2-img:hover {
+    box-shadow: 0 0 20px 1px rgb(39, 35, 35);
+  }
 
 /* Footer */
 footer {
     text-align: center;
     font-size: 14px;
     font-family: 'Century Gothic', sans-serif;
-    padding: 20px 0;
     background-color: thistle;
-    bottom: 0;
-    margin: 0;
+    margin:0;
     width: 100%;
     position: absolute;
   }
@@ -128,14 +162,6 @@ footer {
     color: rgba(104, 161, 28, 0.911);
 }
 
-/* Sidebar */
-/*#sidebar {
-    background-image: url(../images/pillbottle.jpg);
-    float: right;
-    width: 30%;
-    margin: 10px;
-}*/
-
 /*Media Queries*/
 @media  (max-width: 768px) {
     html,body {
@@ -146,6 +172,7 @@ footer {
         box-sizing: border-box;
         overflow-x: hidden;
     }
+
     #main-header {
         float: none;
         text-align: center;
@@ -187,6 +214,12 @@ footer {
     body p {
         font-size: 16px;
     }
+
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+
 }
 
 @media  (max-width: 600px) {
@@ -198,6 +231,7 @@ footer {
         box-sizing: border-box;
         overflow-x: hidden;
     }
+
     #main-header {
         float: none;
         text-align: center;
