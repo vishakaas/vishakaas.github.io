@@ -1,4 +1,4 @@
-html,body {
+html, body {
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -67,6 +67,10 @@ body {
     font-weight: normal;
 }
 
+body h2{
+    margin-top: -20px;
+}
+
 main {
     margin: 0 auto;
     padding: 30px 20px;
@@ -123,15 +127,25 @@ article {
 /* Footer */
 footer {
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Century Gothic', sans-serif;
     background-color: thistle;
-    padding: 20px 0;
     bottom: 0;
-    margin:0;
+    margin: 0;
     width: 100%;
-    position: absolute;
+    position: relative;
   }
+
+.push {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Century Gothic', sans-serif;
+    background-color: thistle;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute; 
+}
 
 /* About Me */
 #description p {
@@ -218,6 +232,16 @@ footer {
         height: auto;
       }
 
+    footer {
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Century Gothic', sans-serif;
+        background-color: thistle;
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+    }
 }
 
 @media  (max-width: 600px) {
@@ -256,7 +280,7 @@ footer {
     body::after {
         content: "";
         display: block;
-        height: 50px;
+        height: 225px;
     }
 
     body h2 {
@@ -273,4 +297,44 @@ footer {
     body p {
         font-size: 14px;
     }
+
+    footer {
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Century Gothic', sans-serif;
+        background-color: thistle;
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+      }
 }
+
+@media  (max-width: 375px) {
+    html,body {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Century Gothic', sans-serif;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    body::after {
+        content: "";
+        display: block;
+        height: 170px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Century Gothic', sans-serif;
+        background-color: thistle;
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+    }
+}
+
