@@ -14,33 +14,33 @@ $(document).ready(function() {
         if(name.length > 2) {
             statusElm.append('')
         }
-        else {
+        //else {
             event.preventDefault()
-            statusElm.append('<div>Name is not valid.</div>')
+            statusElm.append('<div>Name is not valid.</div>')//
         }
 
         if(email.length > 5 && email.includes('@') && email.includes('.')) {
             statusElm.append('')
         }
-        else {
+        //else {
             event.preventDefault()
-            statusElm.append('<div>Email is not valid.</div>')
+            statusElm.append('<div>Email is not valid.</div>')//
         }
 
         if(subject.length >= 10) {
             statusElm.append('')
         }
-        else {
+        //else {
             event.preventDefault()
-            statusElm.append('<div>Subject is not valid.</div>')
+            statusElm.append('<div>Subject is not valid.</div>')//
         }
 
         if(message.length >= 10) {
             statusElm.append('')
         }
-        else {
+        //else {
             event.preventDefault()
-            statusElm.append('<div>Message is not valid</div>')
+            statusElm.append('<div>Message is not valid</div>')//
         }
         
     })
