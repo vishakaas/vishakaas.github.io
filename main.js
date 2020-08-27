@@ -16,31 +16,31 @@ $(document).ready(function() {
         }
         else {
             event.preventDefault()
-            statusElm.append('<div>Please enter all fields.</div>')//
+            statusElm.append('<div>Please enter all fields.</div>')
         }
 
         if(email.length > 5 && email.includes('@') && email.includes('.')) {
             statusElm.append('')
         }
-        //else {
+        else {
             event.preventDefault()
-            statusElm.append('<div>Email is not valid.</div>')//
+            statusElm.append('<div>Please enter all fields.</div>')
         }
 
-        if(subject.length >= 10) {
+        if(subject.length > 10) {
             statusElm.append('')
         }
-        //else {
+        else {
             event.preventDefault()
-            statusElm.append('<div>Subject is not valid.</div>')//
+            statusElm.append('<div>Please enter all fields.</div>')/
         }
 
-        if(message.length >= 10) {
+        if(message.length > 10) {
             statusElm.append('')
         }
-        //else {
+        else {
             event.preventDefault()
-            statusElm.append('<div>Message is not valid</div>')//
+            statusElm.append('<div>Please enter all fields.</div>')
         }
         
     })
