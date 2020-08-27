@@ -14,9 +14,9 @@ $(document).ready(function() {
         if(name.length > 2) {
             statusElm.append('')
         }
-        //else {
+        else {
             event.preventDefault()
-            statusElm.append('<div>Name is not valid.</div>')//
+            statusElm.append('<div>Please enter all fields.</div>')//
         }
 
         if(email.length > 5 && email.includes('@') && email.includes('.')) {
