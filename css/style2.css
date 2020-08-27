@@ -25,7 +25,7 @@ html, body {
 }
 
 #main-header a:hover {
-    color: #5e3232;
+    color: #706969b9;
 }
 
 /* Nav */
@@ -90,7 +90,7 @@ article {
 .container {
     padding: 15px 0;
     text-align: center;
-    letter-spacing: 30px;;
+    letter-spacing: 30px;
 }
 
 .logo-img {
