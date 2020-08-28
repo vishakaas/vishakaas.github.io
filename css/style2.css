@@ -1,3 +1,15 @@
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateY(-25deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateY(0);      
+    }
+}
+
 html, body {
     width: 100%;
     margin: 0px;
@@ -16,6 +28,7 @@ html, body {
     font-size: 20px;
     letter-spacing: 4px;
     line-height: 50px;
+    animation: transitionIn 1.25s;
 }
 
 #main-header a {
@@ -31,6 +44,7 @@ html, body {
 /* Nav */
 #menu {
     background-color: transparent;
+    animation: transitionIn 1.25s;
 }
 
 #menu ul{
@@ -75,6 +89,7 @@ main {
     margin: 0 auto;
     padding: 30px 20px;
     width: 90vw;
+    animation: transitionIn 1.25s;
 }
 
 /*Section: Content */
@@ -134,6 +149,7 @@ footer {
     margin: 0;
     width: 100%;
     position: relative;
+    animation: transitionIn 1.25s;
   }
 
 .push {
