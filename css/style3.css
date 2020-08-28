@@ -150,16 +150,6 @@ textarea {
 }
 
 /* Footer */
-footer {
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Century Gothic', sans-serif;
-    bottom: 0;
-    margin: 0;
-    width: 100%;
-    position: relative;
-  }
-
   .push {
     text-align: center;
     font-size: 14px;
