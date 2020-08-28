@@ -37,30 +37,35 @@
             <h2>Send Me a Message!</h2>
             <form class="form" action="https://formspree.io/vishakaa.satheeshkumar@gmail.com" method="POST">
                 <div class="container">
-                    <label>Name:
-                        <input type="text" name="name" class="name">
-                    </label>
+                    <div class="form-control">
+                        <label>Name:</label>
+                        <input type="name" name="name" class="name">
+                    </div>
 
-                    <label for="email">Email:
+                    <div class="form-control">
+                        <label for="email">Email:</label>
                         <input type="email" name="email" class="email">
-                    </label>
+                    </div>
 
-                    <label>Subject:
-                        <input type="subject" name="subject" class="subject">
-                    </label>
+                    <div class="form-control">
+                        <label>Subject:</label>
+                        <input type="subject" name="subject">
+                    </div>
 
-                    <label>Message:
+                    <div class="form-control">
+                        <label>Message:</label>
                         <textarea name="message" class="message"></textarea>
-                    </label>
+                        <small>Error Message</small>
+                    </div>
 
                 <div class="status">
                 </div>
-
+            </div>
                 <button type="submit" class="submit">
                 Submit
                 </button>
-                </div>
             </form>
+ 
         </section>
     </main>       
         <footer class="push">
