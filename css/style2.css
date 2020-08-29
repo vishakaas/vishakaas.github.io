@@ -350,7 +350,7 @@ footer {
     body::after {
         content: "";
         display: block;
-        height: 170px;
+        height: 10px;
     }
 
     footer {
