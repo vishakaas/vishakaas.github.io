@@ -88,17 +88,17 @@ body p {
     colour: #555;
 }
 
-body ul li {
-    list-style-type: circle;
-    colour: #555;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 main {
     margin: 0 auto;
     padding: 30px 20px;
     width: 90vw;
     animation: transitionIn 1.25s;
+}
+
+main ul li {
+    list-style-type: circle;
+    colour: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*Section: Content */
