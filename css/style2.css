@@ -85,6 +85,10 @@ body h2{
     margin-top: -20px;
 }
 
+body ul {
+    list-style-type: circle;
+}
+
 main {
     margin: 0 auto;
     padding: 30px 20px;
@@ -100,10 +104,6 @@ section {
 /* Article */
 article {
     padding: 15px;
-}
-
-article ul {
-    list-style-type: circle;
 }
 
 .container {
