@@ -92,6 +92,7 @@ body p {
 body ul li {
     list-style-type: circle;
     colour: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
