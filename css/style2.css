@@ -82,6 +82,7 @@ body {
 
 body h2{
     margin-top: -20px;
+    colour: #555;
 }
 
 body p {
@@ -196,10 +197,6 @@ footer {
 #description a {
     text-decoration: none;
     color: darkslategray;
-}
-
-#descrption h2 {
-    colour: darkslategray;
 }
 
 #description a:hover {
