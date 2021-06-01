@@ -82,11 +82,6 @@ body {
 
 body h2{
     margin-top: -20px;
-    colour: #555;
-}
-
-body p {
-    colour: #555;
 }
 
 main {
@@ -191,7 +186,7 @@ footer {
 /* About Me */
 #description p {
     text-decoration: none;
-    color: #555;
+    color: darkslategray;
 }
 
 #description a {
@@ -272,6 +267,10 @@ footer {
         list-style-type: circle;
         font-size: 16px;
     }
+    
+    body li {
+        font-size: 16px;
+    }
 
     img {
         max-width: 100%;
@@ -347,6 +346,10 @@ footer {
     body ul {
         list-style-type: circle;
         font-size: 14px;
+    }
+    
+    body li {
+        font-size: 16px;
     }
     
     footer {
