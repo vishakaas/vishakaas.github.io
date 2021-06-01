@@ -15,6 +15,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: 'Century Gothic', sans-serif;
+    color: #555;
     box-sizing: border-box;
     overflow-x: hidden;
 }
