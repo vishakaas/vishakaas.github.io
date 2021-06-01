@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name= "description" content= "reverse, engineering, innovative, design, research, presentation, student">
+        <meta name= "keywords" content= "blogs, engineering, student, sales">
+        <meta name="author" content="Vishakaa Satheeshkumar">
+        <title>Vishakaa S | Reverse Engineering</title>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style2.css">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    </head>
+
+<body>
+    <div class="wrapper">
+        <header id="main-header" class="alt">
+                <h1><strong>Vishakaa Satheeshkumar</strong></h1>
+                
+            <div class = "logos">
+                <a href="http://www.linkedin.com/in/vishakaasatheeshkumar" i class="fa fa-linkedin-square" style="font-size:36px"></a></i>
+                <a href="https://www.github.com/vishakaas" i class="fa fa-github-square" style="font-size:36px"></a></i>
+                <a href="contact.html" i class="fa fa-envelope-square" style="font-size:36px"></a></i>
+            </div>
+        </header>
+
+        <nav id=menu>
+                    <ul class=links>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+            </nav>
+<!--Main Area of the Page-->
+        <main>
+            <section>
+                    <article>
+                        <h2>Pill Buzz</h2>
+                            <p> I worked in a group of 8 to research a new solution for a pre-existing issue in the baby boomer generation.</p>
+                            <p>An average pill bottle was redesigned to optimize its functionality by making it portable and convenient with installed audible (buzzer), visible (light) and other programmed features to notify the user when to take the pill.</p>
+                            <div class="container">
+                                <img src="images/pillbottle1.png" alt="pill bottle design" class="bottle1-img">
+                                <img src="images/pillbottle2.png" alt="pill bottle design" class="bottle2-img">
+                            </div>
+                            <p>The bill of materials, evaluation (durability, sustainability, user experience, performance, profitability, affordability & accessibility, and public good), and redesign (method, cost, portability, range of use, simplicity, power consumption, and marketing) were thoroughly researched to decide upon the final design.</p>
+                            <p><em>Our group received 97% on the final project.</em></p>
+                    </article>
+            </section>    
+        </main>   
+
+        <footer>
+            <p>&copy; 2021 | Designed by Vishakaa ✏️</p>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
