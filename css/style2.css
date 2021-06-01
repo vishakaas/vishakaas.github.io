@@ -93,6 +93,10 @@ main {
     animation: transitionIn 1.25s;
 }
 
+main ul {
+    list-style-type: circle;
+}
+
 /*Section: Content */
 section {
     margin: auto;
