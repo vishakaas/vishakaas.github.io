@@ -5,7 +5,7 @@
         <meta name= "description" content= "reverse, engineering, innovative, design, research, presentation, student">
         <meta name= "keywords" content= "blogs, engineering, student, sales">
         <meta name="author" content="Vishakaa Satheeshkumar">
-        <title>Vishakaa S | Reverse Engineering</title>
+        <title>Vishakaa S | Bioengineering Project</title>
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style2.css">
@@ -35,15 +35,20 @@
         <main>
             <section>
                     <article>
-                        <h2>Pill Buzz</h2>
-                            <p> I worked in a group of 8 to research a new solution for a pre-existing issue in the baby boomer generation.</p>
-                            <p>An average pill bottle was redesigned to optimize its functionality by making it portable and convenient with installed audible (buzzer), visible (light) and other programmed features to notify the user when to take the pill.</p>
-                            <div class="container">
+                        <h2>Lactic Acid Fermentation</h2>
+                            <p><Strong>Objective:</strong> Research a product manufactured in the bioprocessing industry that uses enzymes or cells. </p> 
+                            <p> I worked in a team of 4 to complete the project through the following 4 phases:
+                            <li>
+                                Conducting preliminary research for a literature survey to determine the feasibility of the topic
+                                Designing an e-Poster to summarize findings efficiently by utilizing the graphic tools included in Microsoft PowerPoint to create process diagrams and flowcharts
+                                Preparing a final report on the background of lactic acid fermentation, relevant upstream process routes, downstream operations, industrial applications, benefits, and summary of findings.
+                            </li>
+                            </p>
+                            <!--<div class="container">
                                 <img src="images/pillbottle1.png" alt="pill bottle design" class="bottle1-img">
                                 <img src="images/pillbottle2.png" alt="pill bottle design" class="bottle2-img">
-                            </div>
-                            <p>The bill of materials, evaluation (durability, sustainability, user experience, performance, profitability, affordability & accessibility, and public good), and redesign (method, cost, portability, range of use, simplicity, power consumption, and marketing) were thoroughly researched to decide upon the final design.</p>
-                            <p><em>Our group received 97% on the final project.</em></p>
+                            </div>-->
+                            <p><em>Our group received 93% on the final project.</em></p>
                     </article>
             </section>    
         </main>   
