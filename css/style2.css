@@ -51,7 +51,7 @@ html, body {
     background-color: transparent;
     text-align: center;
     padding: 0;
-    list-style: none;
+    list-style: circle;
 }
 
 #menu li {
