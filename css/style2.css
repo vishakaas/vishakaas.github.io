@@ -363,10 +363,14 @@ footer {
         display: block;
         height: 10px;
     }
+    
+    body ul, li {
+        font-size: 12 px;
+    }
 
     footer {
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
         font-family: 'Century Gothic', sans-serif;
         background-color: thistle;
         bottom: 0;
