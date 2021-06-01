@@ -102,6 +102,10 @@ article {
     padding: 15px;
 }
 
+article ul {
+    list-style-type: circle;
+}
+
 .container {
     padding: 15px 0;
     text-align: center;
@@ -252,10 +256,6 @@ footer {
 
     body p {
         font-size: 16px;
-    }
-    
-    body ul {
-        list-style-type: circle;
     }
 
     img {
