@@ -198,6 +198,10 @@ footer {
     color: darkslategray;
 }
 
+#descrption h2 {
+    colour: darkslategray;
+}
+
 #description a:hover {
     color: rgba(104, 161, 28, 0.911);
 }
