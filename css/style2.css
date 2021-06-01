@@ -51,7 +51,7 @@ html, body {
     background-color: transparent;
     text-align: center;
     padding: 0;
-    list-style: circle;
+    list-style: none;
 }
 
 #menu li {
@@ -253,11 +253,15 @@ footer {
     body p {
         font-size: 16px;
     }
+    
+    body ul {
+        list-style-type: circle;
+    }
 
     img {
         max-width: 100%;
         height: auto;
-      }
+    }
 
     footer {
         text-align: center;
