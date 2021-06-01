@@ -198,7 +198,7 @@ footer {
 /* Projects */
 #item a {
     font-size: 18px;
-    color: darkslategray;
+    color: #555;
     text-decoration: none;
     transition: all ease-in-out 250ms;
 }
