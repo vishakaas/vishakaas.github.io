@@ -183,7 +183,7 @@ footer {
 /* About Me */
 #description p {
     text-decoration: none;
-    color: darkslategray;
+    color: #555;
 }
 
 #description a {
