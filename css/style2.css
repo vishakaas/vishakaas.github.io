@@ -110,6 +110,7 @@ section {
 /* Article */
 article {
     padding: 15px;
+    colour: #555;
 }
 
 .container {
