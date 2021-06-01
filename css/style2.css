@@ -85,6 +85,10 @@ body h2{
     margin-top: -20px;
 }
 
+body p {
+    colour: darkslategray;
+}
+
 body ul li {
     list-style-type: circle;
 }
