@@ -258,6 +258,11 @@ footer {
     body p {
         font-size: 16px;
     }
+    
+    body ul {
+        list-style-type: circle;
+        font-size: 16px;
+    }
 
     img {
         max-width: 100%;
@@ -329,7 +334,12 @@ footer {
     body p {
         font-size: 14px;
     }
-
+    
+    body ul {
+        list-style-type: circle;
+        font-size: 14px;
+    }
+    
     footer {
         text-align: center;
         font-size: 14px;
